@@ -5,6 +5,7 @@
 }
 
 .app__testimonial-item {
+  margin-top: 30px;
   width: 60%;
   min-height: 320px;
   background-color: var(--white-color);
@@ -57,6 +58,7 @@
     line-height: 2rem;
     color: var(--black-color);
     font-family: var(--font-base);
+    text-align: left;
 
     @media screen and (min-width: 2000px) {
       font-size: 2rem;

@@ -45,14 +45,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   
     .app__work-item {
-      width: 270px;
+      width: 320px;
       flex-direction: column;
   
-      margin: 2rem;
-      padding: 1rem;
+      margin: 1rem;
+      padding: .5rem;
       border-radius: 0.5rem;
       background-color: #fff;
       color: #000;
@@ -66,7 +66,7 @@
   
       @media screen and (min-width: 2000px) {
         width: 470px;
-        padding: 1.25rem;
+        padding: .75rem;
         border-radius: 0.75rem;
       }
   
@@ -143,6 +143,15 @@
       @media screen and (min-width: 2000px) {
         margin-top: 3rem;
       }
+    }
+
+    p{
+      text-align: center;
+    }
+
+    .app_stack{
+      padding: 10px 20px;
+      background-color: var(--gray-color) ;
     }
   
     .app__work-tag {

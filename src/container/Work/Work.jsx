@@ -19,6 +19,7 @@ const Work = () => {
       setWorks(data);
       setFilterWork(data);
     });
+
   }, []);
 
   const handleWorkFilter = (item) => {
@@ -41,7 +42,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
       <div className="app__work-filter">
-        {['E-Commerce', 'Web3', 'React JS', 'Games', 'All'].map((item, index) => (
+        {['React', 'Python', 'Mobile', 'Games', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}

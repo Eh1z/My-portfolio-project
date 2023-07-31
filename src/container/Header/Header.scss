@@ -129,19 +129,19 @@
     // circles with different height & width
   
     div:nth-child(1) {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
     }
   
     div:nth-child(2) {
       margin: 1.75rem;
-      width: 150px;
-      height: 150px;
+      width: 160px;
+      height: 160px;
     }
   
     div:nth-child(3) {
-      width: 70px;
-      height: 70px;
+      width: 120px;
+      height: 120px;
     }
   
     @media screen and (min-width: 2000px) {
